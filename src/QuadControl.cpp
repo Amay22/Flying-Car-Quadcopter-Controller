@@ -70,7 +70,7 @@ VehicleCommand QuadControl::GenerateMotorCommands(float collThrustCmd, V3F momen
 
   ////////////////////////////// BEGIN STUDENT CODE ///////////////////////////
 
-  const float f_t    = collThrustCmd;
+  const float f_t   = collThrustCmd;
   const float tau_x = momentCmd.x;
   const float tau_y = momentCmd.y;
   const float tau_z = momentCmd.z;
